@@ -35,12 +35,11 @@ jobs:
         run: |
           flutter create . --platforms=ios
           cd ios
-          # Создаем дефолтный Podfile, если он не появился автоматически
           if [ ! -f Podfile ]; then
             pod init
           fi
           pod install
 
-      - name: Build iOS (No Sign / Simulator build check)
+      - name: Build iOS (Simulator build check)
         run: |
-          flutter build ios --debug --no-codesign
+          flutter build ios --debug --no-codesign --simulator
