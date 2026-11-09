@@ -24,7 +24,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.x' # Укажи версию под свой sdk (^3.10.8 в pubspec требует Flutter 3.19+)
+          flutter-version: '3.22.x' # Обновили версию, чтобы SDK подходил под твой pubspec
           channel: 'stable'
           cache: true
 
