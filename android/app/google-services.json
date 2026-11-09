@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "140001822010",
+    "firebase_url": "https://puzzlerush-1e62f-default-rtdb.firebaseio.com",
+    "project_id": "puzzlerush-1e62f",
+    "storage_bucket": "puzzlerush-1e62f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140001822010:android:8b50c70e242d4d86a17c03",
+        "android_client_info": {
+          "package_name": "com.example.puzzle_rush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140001822010-0t56q6la7bqruekrvpt2eqj9kj21e2td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX0k40Poy_TYPn9wfZrnRhkHeN833-L7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140001822010-0t56q6la7bqruekrvpt2eqj9kj21e2td.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140001822010-k410tj3uvu87nrdq896tar2ta9s9li1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tourismKgAlisa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140001822010:android:6fdce7ee04bb0361a17c03",
+        "android_client_info": {
+          "package_name": "com.example.tourism_kg_alisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140001822010-nesq03v6cu9bkq0rih5h8c3eq6r2h81t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourism_kg_alisa",
+            "certificate_hash": "8678eb2d1025e595eb55d865b0259f1fb3782e22"
+          }
+        },
+        {
+          "client_id": "140001822010-0t56q6la7bqruekrvpt2eqj9kj21e2td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX0k40Poy_TYPn9wfZrnRhkHeN833-L7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140001822010-0t56q6la7bqruekrvpt2eqj9kj21e2td.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140001822010-k410tj3uvu87nrdq896tar2ta9s9li1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tourismKgAlisa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
