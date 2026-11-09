@@ -23,7 +23,7 @@ dependencies:
   # State Management (Equivalent to ViewModels)
   provider: ^6.1.2
   # File Handling  PDF/Word docs
-  pdfrx: ^1.2.3
+  pdfrx: ^2.1.5    # To view PDFs
   file_picker: ^8.0.3                       # To select PDF/Word docs
   url_launcher: ^6.3.2                      # For opening WEB  PDF/Word docs
   image_picker: ^1.1.0                      # For selecting Photo/Avatar
