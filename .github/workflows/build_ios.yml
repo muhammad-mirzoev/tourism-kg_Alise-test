@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-ios:
-    name: Build Flutter iOS (Simulator / Debug)
+    name: Build Flutter iOS (IPA)
     runs-on: macos-latest
 
     steps:
@@ -40,6 +40,12 @@ jobs:
           fi
           pod install
 
-      - name: Build iOS (Simulator build check)
+      - name: Build Unsigned iOS IPA
         run: |
-          flutter build ios --debug --no-codesign --simulator
+          flutter build ipa --release --no-codesign
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tourism-kg-ipa
+          path: build/ios/ipa/*.ipa
