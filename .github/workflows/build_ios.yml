@@ -40,12 +40,12 @@ jobs:
           fi
           pod install
 
-      - name: Build Unsigned iOS App
+      - name: Build iOS IPA (Unsigned)
         run: |
-          flutter build ios --release --no-codesign
+          flutter build ipa --release --no-codesign
   
-      - name: Upload App Artifact
+      - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tourism-kg-app
-          path: build/ios/iphoneos/*.app
+          name: tourism-kg-ipa
+          path: build/ios/ipa/*.ipa
