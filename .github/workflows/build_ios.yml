@@ -40,12 +40,14 @@ jobs:
           fi
           pod install
 
-      - name: Build iOS IPA (Unsigned)
+      - name: Build iOS IPA
         run: |
-          flutter build ipa --release --no-codesign
+           flutter build ipa --release --no-codesign
+           mkdir -p build/ios/ipa
+           find build/ios -name "*.ipa" -exec cp {} build/ios/ipa/ \;
   
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tourism-kg-ipa
-          path: build/ios/ipa/*.ipa
+           name: tourism-kg-ipa
+           path: build/ios/ipa/*.ipa
